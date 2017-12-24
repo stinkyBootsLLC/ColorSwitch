@@ -1,18 +1,18 @@
 ﻿using UnityEngine;
 // How to make a COLOR SWITCH Replica in Unity (Livestream Tutorial)
 
-public class Rotator : MonoBehaviour 
+public class Rotator : MonoBehaviour
 {
-   // This script will rotate the transform component 
-   // on the z axis
+  // This script will rotate the transform component
+  // on the z axis
 
-   	//adj in the inspector
+  //adj in the inspector
 	public float speed = 100f;// 100 deg every second
-	
+
 	// Update is called once per frame
-	void Update () 
+	void Update ()
 	{
-		                 //x   y     z       
+		// x   y     z     *  Time and the change in time  
 		transform.Rotate(0f, 0f, speed * Time.deltaTime);
 	}
 }//endclass

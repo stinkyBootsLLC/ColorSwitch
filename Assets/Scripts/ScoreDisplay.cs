@@ -4,12 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 // where ever you want to display scores
 
-public class ScoreDisplay : MonoBehaviour 
+public class ScoreDisplay : MonoBehaviour
 {
 	// Stinky Boots 2017
 	// get scores from playerPrefs
 	// display score in game over scene
-	// eer 30-04-2017  
+	// eer 30-04-2017
 
 	public Text currentGameScore;
 	public Text HighScore;
@@ -17,7 +17,7 @@ public class ScoreDisplay : MonoBehaviour
 	private int currentScore;
 	private int highScore;
 
-	void Start () 
+	void Start ()
 	{
 		// get the current game score
 		currentScore = PlayerPrefs.GetInt("PlayerScore");

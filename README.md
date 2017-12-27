@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=gE7gc1sblUA&list=PLPV2KyIb3jR5xTUU7fitudKE6hCDA4
 
 Added a scoring system and a menu system 12/18/2017
 
-Original project can be found at 
+Original project can be found at
 https://github.com/Brackeys/Color-Switch-Replica
 http://brackeys.com/
 
